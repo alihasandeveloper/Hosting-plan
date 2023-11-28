@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap');
+
+
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header Style  */
+
+.navber {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-img img {
+    max-width: 200px;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list a:hover {
+
+    color: royalblue;
+}
+.special a {
+    background-color: transparent;
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 5px;
+    padding: 10px 25px;
+    transition: all 0.5s;
+} 
+
+.special:hover a{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(83,95,255,1) 0%, rgba(0,212,255,1) 88%);
+    transition: all 0.5s;
+    color: #fff;
+    border: 1px solid transparent;
+    box-shadow: 10px 6px 30px rgba(57, 57, 57, 0.495);
+
+}
+
+.home-page {
+    background-image: url(Image/background-1.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.home-page-container {
+    margin-top: 100px;
+    margin-left: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.home-page-short-title {
+    color: rgb(57, 57, 57);
+    font-size: 18px;
+}
+
+.home-page-title {
+    font-size: 40px;
+    color: gray;
+    font-weight: 700;
+
+}
+
+.home-page-button {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.special-1 a {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(83,95,255,1) 0%, rgba(0,212,255,1) 88%);
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid transparent;
+    font-size: 20px;
+    transition: all 0.5s;
+    
+}
+
+.special-1:hover  a{
+    background : #fff;
+    border: 1px solid #000;
+    color: #000;
+    transition: all 0.5s;
+    box-shadow: 10px 6px 30px rgba(57, 57, 57, 0.495);
+}
+
+.special-2 a {
+    background : #fff;
+    border: 1px solid #000;
+    color: #000;
+    padding: 10px 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.special-2:hover a {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(83,95,255,1) 0%, rgba(0,212,255,1) 88%);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid transparent;
+    font-size: 20px;
+    transition: all 0.5s;
+    box-shadow: 10px 6px 30px rgba(57, 57, 57, 0.495);
+
+}
+
+/* Second page style  */
+.second-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.second-page-img img {
+    max-width: 700px;
+    width: 100%;
+
+}
+
+.second-page-content {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second-page-title {
+    font-size: 40px;
+    color: gray;
+    font-weight: 700;
+}
+
+.second-page-content p {
+    text-align: start;
+    font-size: 18px;
+}
+
+/* plan container style  */
+
+.plan-container {
+    margin-top: 130px;
+}
+
+.plan-container .h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan-container .p {
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hosting-plans {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.hosting-plan {
+    max-width: 270px;
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 30px;
+    box-shadow: 2px -5px 20px rgb(230, 229, 229);
+}
+
+.hosting-plan img {
+    max-width: 80px;
+}
+
+.plan-title {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan-small-title, .plan-description {
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.plan-price {
+    color: #000;
+    font-size: 25px;
+    text-decoration: none;
+     border: 2px solid #000;
+     padding: 20px 30px;
+     border-radius: 30px;
+     font-weight: 800;
+}
+
+.plan-btn {
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(83,95,255,1) 0%, rgba(0,212,255,1) 88%);
+    font-family: 18px;
+    border:0 ;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+/* Customer style  */
+
+.customer-container {
+    padding-top: 150px;
+    background: #004C90;
+    padding-bottom: 150px;
+}
+
+.customer-hedding {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+ 
+}
+
+.customer-hedding h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.customer-hedding p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.customer-logo {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 100px;
+}
+
+.customer-logo img {
+    width: 125px;
+}
+
+.customer-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.customer-content-img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: 8px 2px 20px rgb(29, 32, 48);
+}
+
+.customar-content-text {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    gap: 30px;
+}
+.customar-content-text-description {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.customer-deteils {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.customer-name {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.customar-job-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+ /* Hosting content styles */
+
+
+ .hosting-container {
+ }
+.hosting-container .h3  {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.hosting-contents {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hosting-content { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 100px;
+}
+
+.hosting-content-title {
+    font-size: 25px;
+
+}
+.hosting-content img {
+    width: 80px;
+}
+
+.hosting-content-description {
+    color: gray;
+    font-size: 18px;
+    text-align: start;
+}
